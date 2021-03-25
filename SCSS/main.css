@@ -1,0 +1,371 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  background-color: white;
+  padding: 2rem;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+
+header nav .logo a img {
+  width: 140px;
+}
+
+header nav .nav-links {
+  margin-top: 1rem;
+}
+
+header nav .nav-links a {
+  color: #bfbfbf;
+  font-size: 1rem;
+  margin: 1.2rem;
+}
+
+header nav .nav-links a:hover {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header .content {
+  margin-top: 7rem;
+}
+
+header .content h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #070439;
+}
+
+header .content p {
+  color: #bfbfbf;
+  width: 75%;
+}
+
+header .content .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .content .wrapper .email-box {
+  padding-right: 0.5rem;
+}
+
+header .content .wrapper .email-box .email {
+  width: 220px;
+  padding: 0.4rem;
+  border: 1px solid gray;
+}
+
+header .content .wrapper .button .btn {
+  background-color: #3065f8;
+  width: 240px;
+}
+
+header .photo img {
+  width: 450px;
+  margin-top: 7rem;
+}
+
+main {
+  padding: 2rem;
+  background-color: #f6f6fe;
+}
+
+main .productive h3 {
+  color: #070439;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+main .productive p {
+  font-size: 1.2rem;
+}
+
+main .productive .underline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .productive .underline .text {
+  color: #3c9f8f;
+}
+
+main .productive .line {
+  width: 200px;
+  height: 0.1rem;
+  background-color: #3c9f8f;
+}
+
+main .productive .card {
+  width: 400px;
+  padding: 0.4rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: white;
+}
+
+main .productive .card .fa-quote-left {
+  margin-top: 1rem;
+}
+
+main .productive .card p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+main .productive .card .profile .profile-icon img {
+  width: 55px;
+  margin-right: 1rem;
+}
+
+main .productive .card .profile .profile-content h5 {
+  color: #070439;
+}
+
+main .productive .card .profile .profile-content h6 {
+  color: #bfbfbf;
+}
+
+main .picture img {
+  width: 500px;
+  margin-top: 5rem;
+}
+
+.early-one {
+  background-color: #585989;
+  padding: 5rem;
+}
+
+.early-one .early h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.early-one .early p {
+  color: #bfbfbf;
+  font-size: 1.2rem;
+}
+
+.early-one #emaill {
+  width: 420px;
+  padding: 0.5rem;
+  display: block;
+}
+
+.early-one .btn {
+  background-color: #3065f8;
+  width: 220px;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #070439;
+  padding: 4rem;
+  color: #bfbfbf;
+}
+
+footer .logo img {
+  width: 130px;
+}
+
+footer .contact {
+  margin-top: 1rem;
+}
+
+footer .footer-links {
+  margin-top: 3rem;
+}
+
+footer .footer-links a {
+  color: #bfbfbf;
+  display: block;
+  padding: 0.5rem;
+}
+
+footer .footer-links a:hover {
+  text-decoration: none;
+}
+
+footer .footer-linkss {
+  margin-top: 3rem;
+}
+
+footer .footer-linkss a {
+  color: #bfbfbf;
+  display: block;
+  padding: 0.5rem;
+}
+
+footer .footer-linkss a:hover {
+  text-decoration: none;
+}
+
+footer .social-media-icons {
+  margin-top: 5rem;
+}
+
+footer .social-media-icons .fa-facebook,
+footer .social-media-icons .fa-twitter,
+footer .social-media-icons .fa-instagram {
+  font-size: 1.7rem;
+  margin-right: 0.4rem;
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+footer .social-media-icons .fa-facebook:hover,
+footer .social-media-icons .fa-twitter:hover,
+footer .social-media-icons .fa-instagram:hover {
+  color: #3c9f8f;
+}
+
+@media only screen and (max-width: 375px) {
+  button:focus {
+    outline: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  header nav .logo a img {
+    width: 70px;
+  }
+  header nav .nav-links {
+    margin-top: 0;
+  }
+  header nav .nav-links a {
+    margin: 0.5rem;
+  }
+  header .content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  header .content h4 {
+    font-size: 1.4rem;
+  }
+  header .content p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  header .content .wrapper {
+    display: block;
+  }
+  header .content .wrapper .email-box {
+    padding-right: 0;
+  }
+  header .content .wrapper .email-box .email {
+    width: 270px;
+    padding: 0.4rem;
+  }
+  header .content .wrapper .button .btn {
+    width: 275px;
+    margin-top: 0.5rem;
+  }
+  header .photo img {
+    width: 300px;
+    margin-top: 1rem;
+  }
+  main .productive h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  main .productive p {
+    font-size: 0.9rem;
+  }
+  main .productive .underline {
+    margin-left: 5rem;
+  }
+  main .productive .underline .text h5 {
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+  }
+  main .productive .line {
+    width: 152px;
+    margin-top: -0.5rem;
+    margin-left: 5rem;
+  }
+  main .productive .card {
+    width: 290px;
+    margin-left: 0.7rem;
+  }
+  main .productive .card p {
+    font-size: 0.7rem;
+  }
+  main .productive .card .profile .profile-icon img {
+    width: 40px;
+    margin-right: 0.1rem;
+  }
+  main .productive .card .profile .profile-content {
+    margin-top: 0.4rem;
+  }
+  main .productive .card .profile .profile-content h5 {
+    font-size: 0.9rem;
+  }
+  main .productive .card .profile .profile-content h6 {
+    font-size: 0.7rem;
+    margin-top: -0.5rem;
+  }
+  main .picture img {
+    width: 300px;
+  }
+  .early-one {
+    text-align: center;
+  }
+  .early-one .early h3 {
+    font-size: 1.2rem;
+  }
+  .early-one .early p {
+    font-size: 0.8rem;
+  }
+  .early-one #emaill {
+    width: 230px;
+  }
+  .early-one .btn {
+    width: 230px;
+  }
+  footer {
+    padding: 1rem;
+  }
+  footer .logo img {
+    width: 90px;
+  }
+  footer .footer-links {
+    margin-top: 1rem;
+  }
+  footer .footer-linkss {
+    margin-top: 1rem;
+  }
+  footer .social-media-icons {
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,473 @@
+// Colors
+
+// hsl - hue, saturation and lightness
+
+$VeryDarkBlue: hsl(243, 87%, 12%);
+
+$DesaturatedBlue: hsl(238, 22%, 44%);
+
+$BrightBlue: hsl(224, 93%, 58%);
+
+$ModerateCyan: hsl(170, 45%, 43%);
+
+$LightGrayishBlue: hsl(240, 75%, 98%);
+
+$LightGray: hsl(0, 0%, 75%);
+
+$HeadingsButtonsHeaderNav:'Raleway',sans-serif;
+
+$BodyFontFamily:'Open Sans',sans-serif;
+
+// Universal Effects
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $BodyFontFamily;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-family: $HeadingsButtonsHeaderNav;
+}
+
+header{
+    background-color:white;
+    padding: 2rem;
+
+    nav{
+        // Convert column into row
+        display: flex;
+
+        // On X-axis
+        justify-content: space-between;
+
+        font-family: $HeadingsButtonsHeaderNav;
+
+        .logo{
+            a img{
+                width: 140px;
+            }
+        }
+
+        .nav-links{
+            margin-top: 1rem;
+            a{
+                color: $LightGray;
+                font-size: 1rem;
+                margin: 1.2rem;
+
+                &:hover{
+                    text-decoration: none;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    .content{
+        margin-top: 7rem;
+        h4{
+            font-family: $HeadingsButtonsHeaderNav;
+            font-weight: 700;
+            color: $VeryDarkBlue;
+        }
+
+        p{
+            color: $LightGray;
+            width: 75%;
+        }
+
+        .wrapper{
+            // Convert column into row
+            display: flex;
+
+            .email-box{
+                padding-right: 0.5rem;
+                
+                .email{
+                    width: 220px;
+                    padding: 0.4rem;
+
+                    // border:size style color
+                    border: 1px solid gray;
+                }
+            }
+
+            .button{
+                .btn{
+                    background-color: $BrightBlue;
+                    width: 240px;
+                }
+            }
+        }
+    }
+
+    .photo{
+        img{
+            width: 450px;
+            margin-top: 7rem;
+        }
+    }
+}
+
+main{
+    padding: 2rem;
+    background-color: $LightGrayishBlue;
+
+    .productive{
+        h3{
+            color: $VeryDarkBlue;
+            font-family: $HeadingsButtonsHeaderNav;
+            font-weight: 700;
+        }
+
+        p{
+            font-size: 1.2rem;
+        }
+
+        .underline{
+            // Convert column into row
+            display: flex;
+
+            .text{
+                color: $ModerateCyan;
+            }
+        }
+
+        .line{
+            width: 200px;
+            height: 0.1rem;
+            background-color: $ModerateCyan;
+        }
+
+        .card{
+            width: 400px;
+            padding: 0.4rem;
+            margin-top: 1rem;
+            border: none;
+            background-color: white;
+
+            .fa-quote-left{
+                margin-top: 1rem;
+            }
+            p{
+                font-size: 1.1rem;
+                margin-top: 1rem;
+            }
+
+            .profile{
+                .profile-icon{
+                    img{
+                        width: 55px;
+                        margin-right: 1rem;
+                    }
+                }
+
+                .profile-content{
+                    h5{
+                        color:$VeryDarkBlue ;
+                    }
+                    h6{
+                        color: $LightGray;
+                    }
+                }
+            }
+        }
+    }
+
+    .picture{
+        img{
+            width: 500px;
+            margin-top: 5rem;
+        }
+    }
+}
+
+.early-one{
+    background-color: $DesaturatedBlue;
+    padding: 5rem;
+    .early{
+
+        h3{
+            font-family: $HeadingsButtonsHeaderNav;
+            font-weight: 400;
+            color: white;
+        }
+
+        p{
+            color: $LightGray;
+            font-size: 1.2rem;
+        }
+    }
+
+    #emaill{
+        width: 420px;
+        padding: 0.5rem;
+
+        // Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+        display: block;
+    }
+
+    .btn{
+        background-color: $BrightBlue;
+        width: 220px;
+        margin-top: 1rem;
+    }
+}
+
+footer{
+    background-color: $VeryDarkBlue;
+    padding: 4rem;
+    color: $LightGray;
+
+    .logo{
+        img{
+            width: 130px;
+        }
+    }
+
+    .contact{
+        margin-top: 1rem;
+    }
+
+    .footer-links{
+        margin-top: 3rem;
+        a{
+            color: $LightGray;
+
+            // Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+            display: block;
+
+            padding: 0.5rem;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer-linkss{
+        margin-top: 3rem;
+        a{
+            color: $LightGray;
+
+            // Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+            display: block;
+
+            padding: 0.5rem;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+
+    .social-media-icons {
+        margin-top: 5rem;
+
+        .fa-facebook,
+        .fa-twitter,
+        .fa-instagram {
+            font-size: 1.7rem;
+            margin-right: 0.4rem;
+
+            // border:size style color
+            border: 2px solid whitesmoke;
+
+            border-radius: 25px;
+            padding: 0.3rem;
+            cursor: pointer;
+
+            &:hover{
+                color: $ModerateCyan;
+            }
+        }
+    }
+}
+
+// Media Queries
+// On XS Screens
+@media only screen and (max-width:375px){
+    button:focus{
+        outline: none;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        nav{
+            .logo{
+                a img{
+                    width: 70px;
+                }
+            }
+
+            .nav-links{
+                margin-top: 0;
+                a{
+                    margin: 0.5rem;
+                }
+            }
+        }
+
+        .content{
+            margin-top: 2rem;
+            text-align: center;
+
+            h4{
+                font-size: 1.4rem;
+            }
+
+            p{
+                width: 100%;
+                font-size: 0.9rem;
+            }
+
+            .wrapper{
+                // Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width.
+                display: block;
+
+                .email-box{
+                    padding-right: 0;
+                    .email{
+                        width: 270px;
+                        padding: 0.4rem;
+                    }
+                }  
+                
+                .button{
+                    .btn{
+                        width: 275px;
+                        margin-top: 0.5rem;
+                    }
+                }
+            }
+        }
+
+        .photo{
+            img{
+                width: 300px;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    main{
+        .productive{
+
+            h3{
+                font-size: 1rem;
+                margin-top: 1rem;
+                text-align: center;
+            }
+
+            p{
+                font-size: 0.9rem;
+            }
+
+            .underline{
+                margin-left: 5rem;
+
+                .text{
+                    h5{
+                        font-size: 0.9rem;
+                        margin-top: 0.2rem;
+                    }
+                }
+            }
+            .line{
+                width: 152px;
+                margin-top: -0.5rem;
+                margin-left: 5rem;
+            }
+
+            .card{
+                width: 290px;
+                margin-left: 0.7rem;
+
+                p{
+                    font-size: 0.7rem;
+                }
+
+                .profile{
+                    .profile-icon{
+                        
+                        img{
+                            width: 40px;
+                            margin-right: 0.1rem;
+                        }
+                    }
+                    .profile-content{
+                        margin-top: 0.4rem;
+                        h5{
+                            font-size: 0.9rem;
+                        }
+
+                        h6{
+                            font-size: 0.7rem;
+                            margin-top: -0.5rem;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .picture{
+            img{
+                width: 300px;
+            }
+        }
+    }
+
+    .early-one{
+        text-align: center;
+
+        .early{
+            h3{
+                font-size: 1.2rem;
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+
+        #emaill{
+            width: 230px;
+        }
+        .btn{
+            width: 230px;
+        }
+
+    }
+
+    footer {
+        padding: 1rem;
+
+        .logo{
+            img{
+                width: 90px;
+            }
+        }
+
+        .footer-links {
+            margin-top: 1rem;
+        }
+
+        .footer-linkss {
+            margin-top: 1rem;
+        }
+
+        .social-media-icons {
+            margin-left: 7rem;
+            margin-top: 1rem;
+        }
+    }
+}
